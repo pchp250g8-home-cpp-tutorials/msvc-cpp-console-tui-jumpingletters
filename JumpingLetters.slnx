@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="JumpingLetters/JumpingLetters.vcxproj" Id="366e3e10-7705-4e2c-a142-c692779f1ccc" />
+</Solution>
