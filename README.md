@@ -6,24 +6,24 @@ The program does the following:
   4. Creates a string variable with the value "Hello World!!! Jumping Letters!!! Press Any Key To Exit!!!".
   5. Determines the length of a string (the number of characters in a string).
   6. The outer loop with the parameter is executed.
-    6.1. The initial value of the loop parameter is assigned 0 (the numbering of string characters starts from 0).
-    6.2. The final value of the loop parameter is assigned a value that is 1 less than the length of the string.
-    6.3. The value of the loop parameter is compared with the end value of the loop.
-         If it is greater, the loop terminates and continues otherwise.
-    6.4. The inner loop with the parameter is executed.
-         6.4.1. The initial value of the loop parameter is assigned 70
-         6.4.2. The final value of the loop parameter is assigned the value 10 plus the current value of the outer loop parameter.
-         6.4.3. The value of the loop parameter is compared with the end value of the loop.
-                If it is less, the inner loop terminates and continues otherwise.
-         6.4.4. The inner loop is executed. The position and number of the current character are calculated for display:
-                symbol number: the current value of the outer loop parameter.
-                Line number: 10.
-                Сolumn number: the value of the inner loop parameter.
-                The string character is displayed on the screen at the calculated position, followed by the space character.
-                This technique creates the effect of a character moving across the screen along a line.
-                The output is delayed by 5 milliseconds.
-         6.4.5. The value of the inner loop parameter is decreased by 1 (loop step).
-    6.5. The value of the outer loop parameter is incremented by 1 (loop step).
+     6.1. The initial value of the loop parameter is assigned 0 (the numbering of string characters starts from 0).
+     6.2. The final value of the loop parameter is assigned a value that is 1 less than the length of the string.
+     6.3. The value of the loop parameter is compared with the end value of the loop.
+          If it is greater, the loop terminates and continues otherwise.
+     6.4. The inner loop with the parameter is executed.
+          6.4.1. The initial value of the loop parameter is assigned 70
+          6.4.2. The final value of the loop parameter is assigned the value 10 plus the current value of the outer loop parameter.
+          6.4.3. The value of the loop parameter is compared with the end value of the loop.
+                 If it is less, the inner loop terminates and continues otherwise.
+          6.4.4. The inner loop is executed. The position and number of the current character are calculated for display:
+                 symbol number: the current value of the outer loop parameter.
+                 Line number: 10.
+                 Сolumn number: the value of the inner loop parameter.
+                 The string character is displayed on the screen at the calculated position, followed by the space character.
+                 This technique creates the effect of a character moving across the screen along a line.
+                 The output is delayed by 5 milliseconds.
+          6.4.5. The value of the inner loop parameter is decreased by 1 (loop step).
+     6.5. The value of the outer loop parameter is incremented by 1 (loop step).
   7. The entire row is displayed on the screen in row 10 and column 10.
   8. Waiting for a key to be pressed.
   9. Unloads the PDCurses library and exits.
